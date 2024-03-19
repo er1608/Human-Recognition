@@ -214,5 +214,5 @@ void app_main(void)
     adc1_config_width(ADC_WIDTH_BIT_DEFAULT);
     adc1_config_channel_atten(ADC1_CHANNEL_6, ADC_ATTEN_DB_11);
 
-    
+    mqtt_app_start();
 }
